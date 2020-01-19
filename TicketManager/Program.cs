@@ -14,7 +14,9 @@ namespace TicketManagerApp
             WriteLine("please enter your details to book a ticket");
             PassengerDetails passenger = new PassengerDetails()
             {
-
+                PassengerName = "",
+                Age = 0,
+                MobileNumber = 0,
             };
             IList<PassengerDetails> passengerList = new List<PassengerDetails>();
             passengerList.Add(passenger);

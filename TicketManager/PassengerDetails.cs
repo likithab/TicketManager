@@ -16,13 +16,11 @@ namespace TicketManagerApp
             Age = age;
             WriteLine("Enter your mobile number");
             MobileNumber = mobileNumber;
+            WriteLine("Enter the ticket type");
         }
         public string PassengerName { get; set; }
         public int Age { get; set; }
         public int MobileNumber { get; set; }
-        public void GetPassengerDetails()
-        {
-
-        }
+        public TicketType TypeOfTicket { get; set; }
     }
 }
