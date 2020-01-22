@@ -21,6 +21,6 @@ namespace TicketManagerApp
         public string PassengerName { get; set; }
         public int Age { get; set; }
         public int MobileNumber { get; set; }
-        public TicketType TypeOfTicket { get; set; }
+        public TicketType TypeOfTicket{ get; set; }        
     }
 }
