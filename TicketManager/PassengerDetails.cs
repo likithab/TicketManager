@@ -2,7 +2,7 @@
 
 namespace TicketManagerApp
 {
-    internal class PassengerDetails
+    public class PassengerDetails
     {
         public PassengerDetails()
         {
@@ -21,6 +21,7 @@ namespace TicketManagerApp
         public string PassengerName { get; set; }
         public int Age { get; set; }
         public int MobileNumber { get; set; }
-        public TicketType TypeOfTicket{ get; set; }        
+        public TicketType TypeOfTicket { get; set; }
+        public int TicketNumber { get; set; }
     }
 }

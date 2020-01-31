@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TicketManagerApp
 {
-    enum TicketType
+    public enum TicketType
     {
         Daily,
         Monthly,
